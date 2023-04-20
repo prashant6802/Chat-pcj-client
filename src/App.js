@@ -5,7 +5,7 @@ import Chat from "./Chat.js";
 import Detail from "./Detail.js";
 import Design from "./Design";
 
-const socket = io.connect("http://accessible-regular-stomach.glitch.me");
+const socket = io.connect("https://accessible-regular-stomach.glitch.me");
 
 function App() {
   const [username, setUsername] = useState("");
